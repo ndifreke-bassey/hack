@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Your Device</title>
+    <link rel="stylesheet" href="hack.css">
+<script defer src="hack.js"></script>
+    <canvas id="particles" style="position: fixed; top: 0; left: 0; pointer-events: none; z-index: -1;"></canvas>
+    <div id="score" style="position: fixed; top: 20px; right: 20px; color: lime; font-family: monospace; font-size: 18px;">Score: 0</div>
+    <div id="terminal" style="position: fixed; bottom: 20px; left: 20px; color: lime; background: rgba(0,0,0,0.8); padding: 10px; font-family: monospace; font-size: 12px; max-height: 150px; overflow-y: auto; width: 300px; border: 1px solid lime;"></div>
+    <audio id="beep" preload="auto"><source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF0eHB..." type="audio/wav"></audio>
+    <audio id="glitch" preload="auto"><source src="data:audio/wav;base64,UklGRl9vAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF0eHB..." type="audio/wav"></audio>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hacked!</h1>
+        <button class="button" id="main-btn">☠️ Don't Click ☠️</button>
+        <button class="move" id="hide-btn">☠️ Don't Click ☠️</button>
+        <a href="https://github.com/ndifreke-bassey">Follow Me!</a>
+    </div>
+</body>
+
+</html>
